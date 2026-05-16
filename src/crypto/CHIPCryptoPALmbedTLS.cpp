@@ -25,20 +25,20 @@
 
 #include <type_traits>
 
-#include <mbedtls/bignum.h>
-#include <mbedtls/ccm.h>
-#include <mbedtls/ctr_drbg.h>
 #include <mbedtls/ecdh.h>
-#include <mbedtls/ecdsa.h>
-#include <mbedtls/ecp.h>
-#include <mbedtls/entropy.h>
-#include <mbedtls/error.h>
 #include <mbedtls/hkdf.h>
 #include <mbedtls/md.h>
-#include <mbedtls/pkcs5.h>
-#include <mbedtls/sha1.h>
-#include <mbedtls/sha256.h>
-#include <mbedtls/version.h>
+#include <mbedtls/private/bignum.h>
+#include <mbedtls/private/ccm.h>
+#include <mbedtls/private/ctr_drbg.h>
+#include <mbedtls/private/ecdsa.h>
+#include <mbedtls/private/ecp.h>
+#include <mbedtls/private/entropy.h>
+#include <mbedtls/private/error.h>
+#include <mbedtls/private/pkcs5.h>
+#include <mbedtls/private/sha1.h>
+#include <mbedtls/private/sha256.h>
+#include <mbedtls/private/version.h>
 #include <mbedtls/x509_csr.h>
 
 #include <lib/core/CHIPSafeCasts.h>
