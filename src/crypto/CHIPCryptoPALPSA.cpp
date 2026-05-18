@@ -38,7 +38,6 @@
 #include <mbedtls/private/bignum.h>
 #include <mbedtls/private/ecp.h>
 #include <mbedtls/private/error.h>
-#include <mbedtls/x509_csr.h>
 
 #include <string.h>
 #include <type_traits>
