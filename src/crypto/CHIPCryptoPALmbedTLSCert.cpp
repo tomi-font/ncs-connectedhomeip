@@ -28,12 +28,12 @@
 #include <lib/support/CodeUtils.h>
 #include <lib/support/SafeInt.h>
 
-#if CHIP_CRYPTO_USE_X509
 #include <mbedtls/oid.h>
 #include <mbedtls/private/ecp.h>
 #include <mbedtls/x509.h>
 #include <mbedtls/x509_csr.h>
 
+#if CHIP_CRYPTO_USE_X509
 #include <mbedtls/x509_crt.h>
 #endif // CHIP_CRYPTO_USE_X509
 
