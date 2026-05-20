@@ -28,8 +28,8 @@
 #include <lib/support/CodeUtils.h>
 #include <lib/support/SafeInt.h>
 
+#include <mbedtls/ecp.h>
 #include <mbedtls/oid.h>
-#include <mbedtls/private/ecp.h>
 #include <mbedtls/x509.h>
 #include <mbedtls/x509_csr.h>
 

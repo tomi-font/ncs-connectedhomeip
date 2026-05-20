@@ -35,9 +35,9 @@
 
 #include <psa/crypto.h>
 
-#include <mbedtls/private/bignum.h>
-#include <mbedtls/private/ecp.h>
-#include <mbedtls/private/error.h>
+#include <mbedtls/bignum.h>
+#include <mbedtls/ecp.h>
+#include <mbedtls/error.h>
 #include <mbedtls/x509_csr.h>
 
 #include <string.h>

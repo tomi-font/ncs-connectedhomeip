@@ -19,9 +19,9 @@
 
 #include <lib/support/logging/CHIPLogging.h>
 
-#include <mbedtls/private/ecp.h>
-#include <mbedtls/private/error.h>
-#include <mbedtls/private/version.h>
+#include <mbedtls/ecp.h>
+#include <mbedtls/error.h>
+#include <mbedtls/version.h>
 
 namespace chip {
 namespace Crypto {
